@@ -15,16 +15,51 @@ npm install is-odd-code-generator
 Only supports positive integers as input
 
 ```js
+import { generateIsOddCode } from 'is-odd-code-generator';
+
+console.log(generateIsOddCode(-1)) // throws Error since the given number is negative
+
+console.log(generateIsOddCode(0));
+// returns:
+// export function isOdd(number) {
+//   if(number === 0) return false;
+// }
+console.log(generateIsOddCode(10));
+// returns:
+// export function isOdd(number) {
+//   if(number === 0) return false;
+//   else if(number === 1) return true;
+//   else if(number === 2) return false;
+//   else if(number === 3) return true;
+//   else if(number === 4) return false;
+//   else if(number === 5) return true;
+//   else if(number === 6) return false;
+//   else if(number === 7) return true;
+//   else if(number === 8) return false;
+//   else if(number === 9) return true;
+//   else if(number === 10) return false;
+// }
+console.log(generateIsOddCode(15));
+// returns:
+// export function isOdd(number) {
+//   if(number === 0) return false;
+//   else if(number === 1) return true;
+//   else if(number === 2) return false;
+//   else if(number === 3) return true;
+//   else if(number === 4) return false;
+//   else if(number === 5) return true;
+//   else if(number === 6) return false;
+//   else if(number === 7) return true;
+//   else if(number === 8) return false;
+//   else if(number === 9) return true;
+//   else if(number === 10) return false;
+//   else if(number === 11) return true;
+//   else if(number === 12) return false;
+//   else if(number === 13) return true;
+//   else if(number === 14) return false;
+//   else if(number === 15) return true;
+// }
 ```
-
-## About
-
-<details>
-<summary><strong>Contributing</strong></summary>
-
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
-
-</details>
 
 <details>
 <summary><strong>Running Tests</strong></summary>
@@ -34,6 +69,26 @@ In order to run tests, first install the packages then run the tests. Like so:
 ```sh
 pnpm install && pnpm test
 ```
+
+</details>
+
+<details>
+<summary><strong>Building package</strong></summary>
+
+In order to build the package, run the following command:
+
+```sh
+pnpm build
+```
+
+</details>
+
+## About
+
+<details>
+<summary><strong>Contributing</strong></summary>
+
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](../../issues/new).
 
 </details>
 
