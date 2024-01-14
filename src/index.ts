@@ -11,15 +11,15 @@ export function generateIsOddCode(limit: number): string {
 
   let jsCodeToReturn = `
 export function isOdd(number) {
-  if(number === 0) return true;`;
+  if(number === 0) return false;`;
   for (let i = 1; i < limit + 1; ++i) {
     if(i % 2 === 1) {
       jsCodeToReturn += `
-  else if(number === ${i}) return false;`;
+  else if(number === ${i}) return true;`;
     }
     else {
       jsCodeToReturn += `
-  else if(number === ${i}) return true;`;
+  else if(number === ${i}) return false;`;
     }
   }
   return jsCodeToReturn += `
