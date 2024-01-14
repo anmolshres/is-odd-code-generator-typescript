@@ -30,5 +30,9 @@
   "bugs": {
     "url": "https://github.com/anmolshres/is-odd-code-generator-typescript/issues"
   },
-  "homepage": "https://github.com/anmolshres/is-odd-code-generator-typescript#readme"
+  "homepage": "https://github.com/anmolshres/is-odd-code-generator-typescript#readme",
+  "engines": {
+      "node": ">=20",
+      "pnpm": ">=8"
+  }
 }
