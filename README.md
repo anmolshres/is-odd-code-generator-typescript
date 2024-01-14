@@ -1,0 +1,1 @@
+# is-odd-code-generator-typescript
