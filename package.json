@@ -1,6 +1,6 @@
 {
   "name": "is-odd-code-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library to generate JavaScript code that can determine if a given number is odd",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,7 +12,14 @@
     "build": "tsup",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": [
+    "odd",
+    "even",
+    "is-odd",
+    "is-even",
+    "number",
+    "binary"
+  ],
   "author": "Anmol Shrestha (https://github.com/anmolshres)",
   "license": "MIT",
   "devDependencies": {
