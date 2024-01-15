@@ -1,0 +1,38 @@
+{
+  "name": "is-odd-code-generator",
+  "version": "1.0.0",
+  "description": "Library to generate JavaScript code that can determine if a given number is odd",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Anmol Shrestha (https://github.com/anmolshres)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolshres/is-odd-code-generator-typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anmolshres/is-odd-code-generator-typescript/issues"
+  },
+  "homepage": "https://github.com/anmolshres/is-odd-code-generator-typescript#readme",
+  "engines": {
+      "node": ">=20",
+      "pnpm": ">=8"
+  }
+}
