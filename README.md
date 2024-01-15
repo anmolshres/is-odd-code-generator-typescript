@@ -1,4 +1,6 @@
-# is-odd-code-generator [![CI](https://github.com/anmolshres/is-odd-code-generator-typescript/actions/workflows/ci.yml/badge.svg)](https://github.com/anmolshres/is-odd-code-generator-typescript/actions/workflows/ci.yml) [![NPM version](https://img.shields.io/npm/v/is-odd-code-generator.svg?style=flat)](https://www.npmjs.com/package/is-odd-code-generator) [![NPM monthly downloads](https://img.shields.io/npm/dm/is-odd-code-generator.svg?style=flat)](https://npmjs.org/package/is-odd-code-generator) [![NPM total downloads](https://img.shields.io/npm/dt/is-odd-code-generator.svg?style=flat)](https://npmjs.org/package/is-odd-code-generator)
+# is-odd-code-generator 
+
+[![CI](https://github.com/anmolshres/is-odd-code-generator-typescript/actions/workflows/ci.yml/badge.svg)](https://github.com/anmolshres/is-odd-code-generator-typescript/actions/workflows/ci.yml) [![NPM version](https://img.shields.io/npm/v/is-odd-code-generator.svg?style=flat)](https://www.npmjs.com/package/is-odd-code-generator) [![NPM monthly downloads](https://img.shields.io/npm/dm/is-odd-code-generator.svg?style=flat)](https://npmjs.org/package/is-odd-code-generator)
 
 Have you been looking for a npm package that can generate JavaScript code that can determine if a number is odd or not? Look no further. This package takes in a positive integer value, then generates JS code that can determine if a number is odd or not up to and including the supplied positive integer value.
 
